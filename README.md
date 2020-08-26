@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # **Laboratorio N°3**
 ## **CVDS-1**
@@ -54,3 +55,11 @@ posteriormente es de gran importancia que se editen las propiedades de manera qu
 
 [1]:https://maven.apache.org/
 
+=======
+# LAB3CVDS
+Laboratorio Numero 3 Ciclos de Vida del Desarrollo de Software
+
+# Integrantes 
+Santiago Buitrago
+Andres Cubillos
+>>>>>>> 529e4078a5585da26365f410e93fc8d3a613b893
