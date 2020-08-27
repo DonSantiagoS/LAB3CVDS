@@ -157,6 +157,58 @@ y finalmente se realizaron las pruebas planteadas de manera que fuera posible ev
 
 ## **Ejercicio "Descuento de tarifas"**
 
+#### Adicion de nueva dependencia en el archivo pom.xml.
+
+```
+   <dependency>
+		<groupId>edu.eci.cvds</groupId>
+		<artifactId>aerodescuentos</artifactId>
+		<version>1.0.0</version>
+		<scope>test</scope>
+   </dependency>
+```
+#### Implementación de las pruebas propuestas en la etapa de diseño de pruebas en esta clase. 
+
+```
+   public class TarifasTest{
+	private CalculadorDescuentos calculador= new CalculadorDescuentos();
+	private double tarifa;
+	
+    @Test
+    public void DeberiaAplicarDescuento1(){
+        tarifa = calculador.calculoTarifa(2000,22,16);
+        Assert.assertTrue(tarifa== 1600.0);
+    }
+    @Test
+    public void DeberiaLanzarExcepcion4(){
+        
+	try{
+		tarifa = calculador.calculoTarifa(-2000,-19,-72);
+         	int fail= 2000/0;
+	}
+        catch(Exception ex){
+	  }
+      
+    }
+
+```
+##### Realizando las pruebas
+```
+mvn package
+```
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/Tarifatest.PNG)
+
+
+```
+mvn compile
+```
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatest mvn compile.PNG)
+
+
+```
+mvn compile
+```
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatest mvn test.PNG)
 
 
 ##### Autores:
