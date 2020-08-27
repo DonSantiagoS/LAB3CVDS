@@ -107,10 +107,12 @@ mvn test
 
 ![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/Evidencia8.PNG)
 
+
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/Evidencia9.PNG)
 ### **Finalizar el ejercicio**
 
 Segun las indicaciones y parametros planteados en el ejecicio de la registraduria se definieron **_5 clases de equivalencia_**
-![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/equivalencia.PNG)
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/equivalencias.PNG)
 
 Posteriormente se realizo la modificacion de Registry.java
 
@@ -150,7 +152,8 @@ public class Registry {
 ```
 
 y finalmente se realizaron las pruebas planteadas de manera que fuera posible evidenciar y probar segun las clases de equivalencia el ejercicio
-![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/Evidencia9.PNG)
+
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tests.PNG)
 
 ## **Ejercicio "Descuento de tarifas"**
 
@@ -163,10 +166,10 @@ y finalmente se realizaron las pruebas planteadas de manera que fuera posible ev
 [1]:https://mvnrepository.com/
 
 =======
-# LAB3CVDS
+####### LAB3CVDS
 Laboratorio Numero 3 Ciclos de Vida del Desarrollo de Software
 
-# Integrantes 
-Santiago Buitrago
+####### Integrantes 
+Santiago Buitrago 
 Andres Cubillos
 
