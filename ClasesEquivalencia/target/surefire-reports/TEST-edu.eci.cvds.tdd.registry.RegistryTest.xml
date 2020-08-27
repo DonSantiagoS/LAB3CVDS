@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.tdd.registry.RegistryTest" time="0.083" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\braya\AppData\Local\Temp\surefire13751090506542068983\surefirebooter8707662197690494591.jar C:\Users\braya\AppData\Local\Temp\surefire13751090506542068983 2020-08-26T15-05-03_535-jvmRun1 surefire5659990455942842048tmp surefire_02122186312963455441tmp"/>
+    <property name="sun.java.command" value="C:\Users\braya\AppData\Local\Temp\surefire15996808113058909073\surefirebooter6067089098581686777.jar C:\Users\braya\AppData\Local\Temp\surefire15996808113058909073 2020-08-26T22-51-54_917-jvmRun1 surefire2046612145881829122tmp surefire_013785674249938034202tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\braya\Documents\CVDS\LAB3CVDS\ClasesEquivalencia\target\test-classes;C:\Users\braya\Documents\CVDS\LAB3CVDS\ClasesEquivalencia\target\classes;C:\Users\braya\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\braya\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\braya\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\braya\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\braya\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\braya\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\braya\AppData\Local\Temp\surefire13751090506542068983\surefirebooter8707662197690494591.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\braya\AppData\Local\Temp\surefire15996808113058909073\surefirebooter6067089098581686777.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.2+12-46"/>
@@ -55,5 +55,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="validateRegistryResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.002"/>
+  <testcase name="validateRegistryResultDeadJoven" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.034"/>
+  <testcase name="validateRegistryResultDeadAdulto" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.001"/>
+  <testcase name="validateRegistryResultUnderageSuperior" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.002"/>
+  <testcase name="validateRegistryResultInvalidAge" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultUnderage" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultInvalidAgeSuperior" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultDuplicatedAnciano" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultUnderageInferior" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultDeadAnciano" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultValid1" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultValid2" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultValid3" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultValid4" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResult" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0.001"/>
+  <testcase name="validateRegistryResultDuplicatedJoven" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultInvalidAge2" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
+  <testcase name="validateRegistryResultInvalidAgeInf" classname="edu.eci.cvds.tdd.registry.RegistryTest" time="0"/>
 </testsuite>
