@@ -206,7 +206,7 @@ mvn compile
 
 
 ```
-mvn compile
+mvn test
 ```
 ![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatestmvntest.PNG)
 
