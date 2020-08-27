@@ -192,7 +192,7 @@ y finalmente se realizaron las pruebas planteadas de manera que fuera posible ev
     }
 
 ```
-##### Realizando las pruebas
+#### Realizando las pruebas
 ```
 mvn package
 ```
@@ -202,13 +202,13 @@ mvn package
 ```
 mvn compile
 ```
-![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatest mvn compile.PNG)
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatestmvncompile.PNG)
 
 
 ```
 mvn compile
 ```
-![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatest mvn test.PNG)
+![](https://github.com/DonSantiagoS/LAB3CVDS/blob/master/Imagenes/tarifatestmvntest.PNG)
 
 
 ##### Autores:
